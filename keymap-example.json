@@ -1,0 +1,23 @@
+[
+  {
+    "keys": [
+      "super+s"
+    ],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        {
+          "command": "save"
+        },
+        {
+          "command": "save_evernote_note",
+          "context": [
+            {
+              "key": "evernote_note"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
